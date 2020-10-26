@@ -47,11 +47,9 @@ def extract_frames(stream_path, target_frame_num):
         return 0
 
 
-# extract_frames("/mnt/d/Code/topaz/example.mov", 10)
-
 if __name__ == "__main__":
     try:
         extract_frames()
     except ValueError:
         print(
-            f"Target number of frames exceeds total number of source frames")
+            "Target number of frames exceeds total number of source frames")

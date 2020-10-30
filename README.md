@@ -17,5 +17,5 @@ topaz is a small script which turns your video into (almost) desired number of f
 script works on linux and WSL (tested). not sure about mac but probably works too.
 
 ## to do:
-* idk try to get rid of eval or sanitize the input somehow (values for the fps can be wild)
+* ~~idk try to get rid of eval or sanitize the input somehow (values for the fps can be wild)~~
 * maybe more options if i come up with them
